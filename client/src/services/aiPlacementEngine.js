@@ -142,7 +142,19 @@ export const verifyJobOrOffer = (inputData) => {
   const safeIndicators = [];
 
   // Red Flag 1: Financial Demand
-  if (text.includes('security deposit') || text.includes('registration fee') || text.includes('training fee') || text.includes('laptop deposit') || text.includes('cheque') || text.includes('pay rs') || text.includes('processing fee')) {
+  if (
+    text.includes('security deposit') || 
+    text.includes('registration fee') || 
+    text.includes('registration deposit') ||
+    text.includes('deposit') ||
+    text.includes('training fee') || 
+    text.includes('laptop deposit') || 
+    text.includes('cheque') || 
+    text.includes('pay rs') || 
+    text.includes('transfer rs') ||
+    text.includes('transfer ₹') ||
+    text.includes('processing fee')
+  ) {
     riskPoints += 45;
     redFlags.push({
       title: 'Monetary Extortion / Upfront Payment Demand',
