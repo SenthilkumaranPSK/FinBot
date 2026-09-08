@@ -1,0 +1,33 @@
+{
+  "name": "place-gaurd",
+  "version": "1.0.0",
+  "description": "Place Gaurd AI — Campus Placement & Career Protection System",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:fullstack": "npm run dev:client & npm run dev:server",
+    "build": "npm run build --prefix client",
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "start": "npm start --prefix server"
+  },
+  "keywords": [
+    "placement",
+    "campus-recruitment",
+    "ats-resume-scanner",
+    "ai-mock-interview",
+    "fraud-detector",
+    "career-guard",
+    "react",
+    "vite",
+    "nodejs",
+    "express",
+    "tailwindcss"
+  ],
+  "author": "Place Gaurd Team",
+  "license": "MIT"
+}
