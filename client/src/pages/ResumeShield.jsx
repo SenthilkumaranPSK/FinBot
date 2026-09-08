@@ -2,21 +2,13 @@ import React, { useState } from 'react';
 import { 
   FileCheck2, 
   Sparkles, 
-  CheckCircle2, 
-  AlertTriangle, 
   Copy, 
   Check, 
   Download, 
-  RefreshCw, 
-  ShieldCheck, 
-  Layers, 
-  Zap, 
-  TrendingUp,
-  ArrowRight
+  RefreshCw 
 } from 'lucide-react';
 import { usePlacement } from '../contexts/PlacementContext';
 import { SAMPLE_RESUMES } from '../data/mockData';
-import { analyzeResumeATS } from '../services/aiPlacementEngine';
 
 export default function ResumeShield() {
   const { activeResume, resumeAnalysis, scanResume } = usePlacement();

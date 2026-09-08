@@ -6,18 +6,13 @@ import {
   Circle, 
   Sparkles, 
   BookOpen, 
-  Award, 
-  ChevronRight, 
-  Building2,
-  Code2,
-  Check
+  Code2
 } from 'lucide-react';
 import { PLACEMENT_ROADMAP_30_DAYS } from '../data/mockData';
 
 export default function SkillGap() {
   const [targetCompany, setTargetCompany] = useState('Google');
   const [roadmap, setRoadmap] = useState(PLACEMENT_ROADMAP_30_DAYS);
-  const [activeQuizIndex, setActiveQuizIndex] = useState(null);
   const [selectedQuizAnswer, setSelectedQuizAnswer] = useState(null);
 
   const toggleDayTopic = (weekIndex, dayIndex) => {

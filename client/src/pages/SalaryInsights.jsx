@@ -1,15 +1,7 @@
 import React, { useState } from 'react';
 import { 
   Calculator, 
-  IndianRupee, 
-  ShieldAlert, 
-  CheckCircle2, 
-  TrendingUp, 
-  Building2, 
-  AlertTriangle, 
-  Zap, 
-  Info,
-  DollarSign
+  ShieldAlert 
 } from 'lucide-react';
 import { SALARY_BENCHMARKS } from '../data/mockData';
 import { calculateInHandSalary } from '../services/aiPlacementEngine';

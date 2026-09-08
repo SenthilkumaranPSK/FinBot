@@ -9,12 +9,7 @@ import {
   CheckCircle2, 
   Award, 
   RefreshCw, 
-  ChevronRight, 
-  Clock, 
-  Volume2, 
-  VolumeX, 
-  AlertCircle,
-  FileText
+  ChevronRight 
 } from 'lucide-react';
 import { usePlacement } from '../contexts/PlacementContext';
 import { MOCK_INTERVIEW_QUESTIONS } from '../data/mockData';

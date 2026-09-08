@@ -229,7 +229,7 @@ export const verifyJobOrOffer = (inputData) => {
   };
 };
 
-export const evaluateInterviewAnswer = (question, userAnswer, domain = 'Fullstack SDE') => {
+export const evaluateInterviewAnswer = (question, userAnswer, _domain = 'Fullstack SDE') => {
   const ans = (userAnswer || '').trim();
   const wordCount = ans.split(/\s+/).filter(Boolean).length;
 
@@ -326,7 +326,7 @@ export const calculateInHandSalary = (ctcInLakhs, bonus = 0, stocksFourYear = 0)
   };
 };
 
-export const generateCoachResponse = (userPrompt, mode = 'general') => {
+export const generateCoachResponse = (userPrompt, _mode = 'general') => {
   const query = (userPrompt || '').toLowerCase();
 
   if (query.includes('dsa') || query.includes('algorithm') || query.includes('leetcode') || query.includes('tree') || query.includes('graph')) {

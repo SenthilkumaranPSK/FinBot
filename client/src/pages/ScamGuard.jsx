@@ -1,17 +1,11 @@
 import React, { useState } from 'react';
 import { 
   ShieldAlert, 
-  ShieldCheck, 
   AlertTriangle, 
   CheckCircle2, 
   Search, 
   Plus, 
-  Send, 
-  Building2, 
-  FileText, 
-  Lock, 
   Sparkles,
-  Info,
   X
 } from 'lucide-react';
 import { usePlacement } from '../contexts/PlacementContext';

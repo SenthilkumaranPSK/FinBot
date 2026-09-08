@@ -1,17 +1,8 @@
 import React, { useState } from 'react';
 import { 
   Compass, 
-  Building2, 
-  Clock, 
-  CheckCircle2, 
   Plus, 
-  Filter, 
-  Layers, 
-  Calendar, 
   Search, 
-  Sparkles, 
-  ChevronRight,
-  ExternalLink,
   X
 } from 'lucide-react';
 import { usePlacement } from '../contexts/PlacementContext';
@@ -348,6 +339,16 @@ export default function DriveRadar() {
                     <option value="Service">Service / Digital</option>
                   </select>
                 </div>
+              </div>
+
+              <div>
+                <label className="text-xs font-bold text-slate-700 dark:text-slate-300 block mb-1">Application Deadline</label>
+                <input 
+                  type="date" 
+                  value={newDeadline}
+                  onChange={(e) => setNewDeadline(e.target.value)}
+                  className="w-full p-3 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs dark:text-white outline-none"
+                />
               </div>
 
               <button 

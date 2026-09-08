@@ -6,12 +6,10 @@ import {
   User, 
   Copy, 
   Check, 
-  RefreshCw, 
   Code2, 
   MessageSquare, 
   ShieldAlert, 
   DollarSign, 
-  BookOpen,
   Trash2
 } from 'lucide-react';
 import { generateCoachResponse } from '../services/aiPlacementEngine';

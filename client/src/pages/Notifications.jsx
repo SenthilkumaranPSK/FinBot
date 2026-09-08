@@ -4,10 +4,7 @@ import {
   ShieldAlert, 
   Clock, 
   FileCheck2, 
-  Bot, 
-  CheckCheck, 
-  Filter,
-  CheckCircle2
+  CheckCheck
 } from 'lucide-react';
 import { usePlacement } from '../contexts/PlacementContext';
 

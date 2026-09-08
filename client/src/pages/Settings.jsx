@@ -4,12 +4,9 @@ import {
   Moon, 
   Sun, 
   Key, 
-  Bell, 
-  ShieldCheck, 
   Save, 
   Check, 
-  RotateCcw,
-  Sparkles
+  RotateCcw
 } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 

@@ -2,29 +2,20 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
   ShieldCheck, 
-  FileCheck2, 
-  Bot, 
-  ShieldAlert, 
-  Sparkles, 
-  TrendingUp, 
-  CheckCircle2, 
+  FileCheck2,
+  Bot,
+  ShieldAlert,
   Clock, 
-  Calendar, 
-  ArrowRight, 
-  AlertCircle, 
-  Award, 
   Flame, 
-  Target, 
   ChevronRight,
   Zap,
-  Building2,
-  CheckCheck
+  Building2
 } from 'lucide-react';
 import { usePlacement } from '../contexts/PlacementContext';
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, AreaChart, Area } from 'recharts';
+import { ResponsiveContainer, XAxis, YAxis, Tooltip, CartesianGrid, AreaChart, Area } from 'recharts';
 
 export default function Dashboard() {
-  const { profile, drives, scams, resumeAnalysis, interviewHistory } = usePlacement();
+  const { profile, drives, scams, resumeAnalysis } = usePlacement();
 
   // Pipeline counts
   const pipelineCounts = {

@@ -4,12 +4,8 @@ import {
   FileText, 
   Code2, 
   Download, 
-  CheckCircle2, 
-  ExternalLink, 
-  Sparkles, 
   Layers, 
-  Database,
-  Cpu
+  Database
 } from 'lucide-react';
 
 export default function PrepVault() {

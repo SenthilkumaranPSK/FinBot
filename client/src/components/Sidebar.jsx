@@ -65,6 +65,15 @@ export default function Sidebar({ isOpen, setIsOpen }) {
             )}
           </AnimatePresence>
         </NavLink>
+        {isOpen && (
+          <button 
+            onClick={() => setIsOpen(!isOpen)}
+            className="p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-400 transition-colors"
+            title="Collapse Sidebar"
+          >
+            <ChevronRight className="w-4 h-4 rotate-180" />
+          </button>
+        )}
       </div>
 
       {/* Navigation Links */}

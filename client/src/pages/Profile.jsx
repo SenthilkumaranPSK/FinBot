@@ -1,17 +1,8 @@
 import React, { useState } from 'react';
 import { 
-  User, 
-  GraduationCap, 
   ShieldCheck, 
-  Award, 
-  Code2, 
-  Globe, 
-  Link2, 
   Save, 
-  Check, 
-  Sparkles,
-  Building2,
-  FileCheck2
+  Check 
 } from 'lucide-react';
 import { usePlacement } from '../contexts/PlacementContext';
 

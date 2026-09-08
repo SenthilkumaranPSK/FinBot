@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useTheme } from '../contexts/ThemeContext';
 import { usePlacement } from '../contexts/PlacementContext';
-import { Moon, Sun, Menu, Bell, Search, ShieldAlert, Sparkles, X, CheckCheck } from 'lucide-react';
+import { Moon, Sun, Menu, Bell, Search, ShieldAlert, X, CheckCheck } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Navbar({ isSidebarOpen, setSidebarOpen }) {
